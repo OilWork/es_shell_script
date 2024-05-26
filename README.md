@@ -1,7 +1,7 @@
 # es_shell_script
 
 
-# 1. install_es.sh
+# 1. install_es
 ## 가능한 기능
 - ssh로 접근 가능하다는 전제
   - Elasticsearch 자동 설치 및 클러스터
@@ -22,7 +22,7 @@
 
   
 --------------------------------------------------------------
-# 1. install_es.sh
+# 2. agent_es
 ## 가능한 기능
 - Agent output 생성
 - Agent Policy 복사
