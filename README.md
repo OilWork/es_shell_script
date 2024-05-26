@@ -1,7 +1,7 @@
 # es_shell_script
 
 
-# install_es.sh
+# 1. install_es.sh
 ## 가능한 기능
 - ssh로 접근 가능하다는 전제
   - Elasticsearch 자동 설치 및 클러스터
@@ -21,3 +21,17 @@
 - role 생성 : es_script.sh role
 
   
+--------------------------------------------------------------
+# 1. install_es.sh
+## 가능한 기능
+- Agent output 생성
+- Agent Policy 복사
+- Agent Policy 수정
+- Agent Reassign
+ 
+## 사용법
+### config.ini 설정은 현재 포맷에서 값만 변경할것
+- 명령어 확인 : es_script.sh help
+- 사전작업 진행 : agent.sh prejob
+- Agent Reassign : agent.sh reassign
+- 이전 agent policy 삭제 : agent.sh delete_old
