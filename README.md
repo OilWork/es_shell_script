@@ -1,2 +1,6 @@
 # es_shell_script
-shell_script_using_elasticsearch
+
+
+## install_es.sh
+- Elasticsearch 설치용 쉘스크립트
+  
